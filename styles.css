@@ -116,6 +116,7 @@ button {
 .images {
   display: flex;
   gap: 48px;
+  margin-bottom: 112px;
 }
 
 .info img {
@@ -132,4 +133,47 @@ button {
 .text {
   color: grey;
   font-size: 18px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 96px 275px 64px;
+}
+.quote {
+  text-align: center;
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 300;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+.quote-attribution {
+  text-align: end;
+  font-weight: bold;
+}
+
+.ad-space {
+  margin: 96px 150px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 48px 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-bottom: 4px;
+}
+
+.ad-description {
+  font-size: 14px;
+  color: #f9faf8;
+}
+.ad-space button {
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 14px;
 }
