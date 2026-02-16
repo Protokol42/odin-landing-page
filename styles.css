@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .header,
@@ -40,12 +48,6 @@ body {
   gap: 8px;
 }
 
-.header-content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 .img-wrapper {
   flex: 0 1 450px;
 }
@@ -67,7 +69,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 12px;
+  gap: 24px;
 }
 
 .header h1 {
@@ -94,4 +96,40 @@ button {
   border-radius: 8px;
   border: none;
   font-size: 16px;
+}
+
+.information {
+  align-self: center;
+  margin-top: 48px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 60px;
+}
+
+.images {
+  display: flex;
+  gap: 48px;
+}
+
+.info img {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  margin: 12px 0px;
+}
+
+.info {
+  max-width: 175px;
+  flex: 0 1 auto;
+}
+
+.text {
+  color: grey;
+  font-size: 18px;
 }
