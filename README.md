@@ -30,3 +30,8 @@ https://protokol42.github.io/odin-landing-page/
 - **CSS3:** Handling all layout via Flexbox and custom styling.
 - **Google Fonts API:** Integrating the Roboto font family.
 - **Git & GitHub:** Managing version control and project deployment.
+
+## Attributions
+
+- Sunset Poppies Field (Header) -> Diego Torres - https://pixabay.com/users/diego_torres-1118992/
+- Plants images in plants information section -> Icongeek26 - https://www.flaticon.com/authors/icongeek26 from Flaticon - https://www.flaticon.com/
