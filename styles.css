@@ -154,12 +154,12 @@ button {
   text-align: end;
   font-weight: bold;
 }
-.ad-wrapper {
+.cta-wrapper {
   background-color: white;
   padding: 96px 150px;
 }
 
-.ad-space {
+.cta-space {
   background-color: #3882f6;
   border-radius: 8px;
   padding: 48px 96px;
@@ -167,18 +167,18 @@ button {
   justify-content: space-between;
 }
 
-.ad-title {
+.cta-title {
   font-size: 16px;
   font-weight: bold;
   color: #f9faf8;
   margin-bottom: 4px;
 }
 
-.ad-description {
+.cta-description {
   font-size: 14px;
   color: #f9faf8;
 }
-.ad-space button {
+.cta-space button {
   border: 2px solid #f9faf8;
   color: #f9faf8;
   font-size: 14px;
