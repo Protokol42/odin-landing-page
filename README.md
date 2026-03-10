@@ -2,7 +2,7 @@
 
 This project is a high-fidelity landing page built as part of The Odin Project curriculum.
 https://protokol42.github.io/odin-landing-page/
-testing testing
+
 ## Core Concepts Practiced
 
 ### CSS Foundations
